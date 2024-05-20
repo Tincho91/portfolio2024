@@ -14,7 +14,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, tortor non rutrum sodales, nisi purus placerat nulla, vel molestie elit enim ut augue. Vestibulum vitae malesuada nulla. Donec vehicula.'
+          description='During this stage, I meticulously outline my goals, define project scope, and devise a comprehensive roadmap to ensure a successful project outcome.'
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,7 +24,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, tortor non rutrum sodales, nisi purus placerat nulla, vel molestie elit enim ut augue. Vestibulum vitae malesuada nulla. Donec vehicula.'
+          description='Throughout this phase, I work diligently to bring the project to life, providing regular updates and incorporating feedback to ensure alignment with project objectives.'
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,7 +39,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, tortor non rutrum sodales, nisi purus placerat nulla, vel molestie elit enim ut augue. Vestibulum vitae malesuada nulla. Donec vehicula.'
+          description='In this last stage, I finalize development, conduct thorough testing, and prepare for a seamless launch, aiming to deliver a polished product that meets and exceeds client expectations.'
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -68,7 +68,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] h-[17rem] rounded-3xl"
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
